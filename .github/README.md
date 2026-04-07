@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-taxsettings`](https://www.npmjs.com/package/@aws-sdk/client-taxsettings/v/3.1025.0).
+[`@aws-sdk/client-taxsettings`](https://www.npmjs.com/package/@aws-sdk/client-taxsettings/v/3.1026.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1025.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1026.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-9Ff8V29k3vkoQdYhdUpygElfnEZR/5Ikb37D6tC+F5GGfA0E+QYsDPZ1Q2++p+pH
+sha384-uKU/9tsaKQkc8SU9ywhHak9bXatbPWU4vInBslAmfR+coG9apxjwho8/6RzGpa8C
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-taxsettings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1025.0/index.min.mjs"
+            "@aws-sdk/client-taxsettings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1026.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1025.0/index.min.mjs": "sha384-9Ff8V29k3vkoQdYhdUpygElfnEZR/5Ikb37D6tC+F5GGfA0E+QYsDPZ1Q2++p+pH"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1026.0/index.min.mjs": "sha384-uKU/9tsaKQkc8SU9ywhHak9bXatbPWU4vInBslAmfR+coG9apxjwho8/6RzGpa8C"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-taxsettings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1025.0/index.min.mjs"
+                        "@aws-sdk/client-taxsettings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1026.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1025.0/index.min.mjs": "sha384-9Ff8V29k3vkoQdYhdUpygElfnEZR/5Ikb37D6tC+F5GGfA0E+QYsDPZ1Q2++p+pH"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-taxsettings@3.1026.0/index.min.mjs": "sha384-uKU/9tsaKQkc8SU9ywhHak9bXatbPWU4vInBslAmfR+coG9apxjwho8/6RzGpa8C"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1025.0`)
+* Always pin to a specific version (`@3.1026.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-taxsettings/blob/refs/tags/3.1025.0/LICENSE
+https://github.com/cloud-sdk-builds/client-taxsettings/blob/refs/tags/3.1026.0/LICENSE
 ```
 
 ---
